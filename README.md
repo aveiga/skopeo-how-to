@@ -1,10 +1,12 @@
 # skopeo-how-to
 "How to" use Skopeo for OCI image relocation in airgapped scenarios
 
+Source: https://github.com/containers/skopeo
+
 ## Dev setup
-- Clone this repo
+- Install Skopeo: https://github.com/containers/skopeo/blob/main/install.md
 - Run a local registry: `docker run -d -p 5001:5000 --restart always --name registry registry:2`
-- Create an "images" directory in this repo
+- Create an "images" directory
 
 ## How to...
 
